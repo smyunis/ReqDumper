@@ -1,0 +1,11 @@
+@ReqDumper_HostAddress = http://localhost:5191
+
+## Dump only request body
+POST {{ReqDumper_HostAddress}}/a/ethsw/ips/rtp/webhook
+
+<xml></xml>
+
+### Dump everyting of the incoming request
+GET {{ReqDumper_HostAddress}}/a/test
+
+Majin buu is king
